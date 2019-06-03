@@ -1,0 +1,28 @@
+{
+  "name": "contact-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client_install": "cd client && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "concurrently \"nodemon index.js\" \"cd client && npm start\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.3",
+    "validator": "^10.11.0"
+  },
+  "engines": {
+    "node": "^10.15.1",
+    "npm": "^6.8.0"
+  }
+}

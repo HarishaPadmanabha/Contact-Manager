@@ -1,0 +1,19 @@
+1. in package.json setup proxy value 
+    
+    "proxy": "http://localhost:3005"
+
+2. npm install --save axios react-router-dom
+
+3. create components folder 
+    src
+        /components
+                    / contacts
+                    / layout 
+
+
+4. in App.js 
+    
+
+5. src/components/contacts create List.js 
+
+6. src/components/layout create Home.js  
