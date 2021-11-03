@@ -19,7 +19,7 @@
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.4.3",
-    "validator": "^10.11.0"
+    "validator": "^13.7.0"
   },
   "engines": {
     "node": "^10.15.1",
